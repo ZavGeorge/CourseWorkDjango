@@ -1,0 +1,58 @@
+{
+  "vehicle":[
+    {
+      "company_id":"1",
+      "id":"1",
+      "name_vehicle":"Lada",
+      "type_model":"Priora",
+      "date_of_purchase":"12.02.2001",
+      "technical_condition":"хорошее",
+      "name_of_vehicle_owner":"..",
+      "data_of_birth_vehicle_owner":"13.07.2002",
+      "driving_license_date":"13.07.2012",
+      "repair_work":[
+        {
+          "id":"1",
+          "FIO_mechanic":"-//-",
+          "repair_date":"-//-",
+          "repairing_price":"-//-",
+          "description":"-//-",
+          "phone_number":"-//-"
+        }
+      ]
+    },
+    {
+      "company_id":"3",
+      "id":"2",
+      "name_vehicle":"BMW",
+      "type_model":"i8",
+      "date_of_purchase":"20.12.2019",
+      "technical_condition":"Отличное",
+      "name_of_vehicle_owner":"Сысоев Чеслав Ярославович",
+      "data_of_birth_vehicle_owner":"28.04.1967",
+      "driving_license_date":"24.11.1986",
+      "repair_work":[]
+    },
+    {
+      "company_id":"3",
+      "id":"3",
+      "name_vehicle":"ВАЗ",
+      "type_model":"2107",
+      "date_of_purchase":"18.07.1999",
+      "technical_condition":"плохое",
+      "name_of_vehicle_owner":"Муравьёв Юрий Валерьевич",
+      "data_of_birth_vehicle_owner":"28.04.1967",
+      "driving_license_date":"12.12.2012",
+      "repair_work":[
+        {
+          "id":"1",
+          "FIO_mechanic":"Киселёв Эрик Васильевич",
+          "repair_date":"11.11.2001",
+          "repairing_price":"5 т.р.",
+          "description":"Починка мотора.",
+          "phone_number":"8-932-435-53-65"
+        }
+      ]
+    }
+  ]
+}

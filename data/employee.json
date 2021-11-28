@@ -1,0 +1,67 @@
+{
+  "employee":[
+    {
+      "company_id":"1",
+      "id":"1",
+      "FIO":"Михайолов Ярослав Максимович",
+      "employee_position":"Директор предприятия",
+      "dat_of_birth":"21.04.1988",
+      "phone_number":"8-312-536-77-77",
+      "salary":"70 т.р."
+    },
+    {
+      "company_id":"1",
+      "id":"2",
+      "FIO":"Федотов Трофим Петрович",
+      "employee_position":"Заместитель директора предприятия",
+      "dat_of_birth":"13.12.1978",
+      "phone_number":"8-912-324-75-87",
+      "salary":"60 т.р."
+    },
+    {
+      "company_id":"2",
+      "id":"3",
+      "FIO":"Бутко Эрик Ярославович",
+      "employee_position":"Директор предприятия",
+      "dat_of_birth":"30.06.1967",
+      "phone_number":"8-573-324-65-59",
+      "salary":"20 т.р."
+    },
+    {
+      "company_id":"2",
+      "id":"4",
+      "FIO":"Гриневская Евстахий Андреевич",
+      "employee_position":"Бухгалтер",
+      "dat_of_birth":"12.01.1987",
+      "phone_number":"8-978-786-23-45",
+      "salary":"30 т.р."
+    },
+    {
+      "company_id":"3",
+      "id":"5",
+      "FIO":"Сыпченко Тимур Иванович",
+      "employee_position":"Водитель",
+      "dat_of_birth":"12.02.1978",
+      "phone_number":"8-999-000-21-43",
+      "salary":"40 т.р."
+    },
+    {
+      "company_id":"3",
+      "id":"6",
+      "FIO":"Котов Семён Васильевич",
+      "employee_position":"Водитель",
+      "dat_of_birth":"12.02.1988",
+      "phone_number":"8-999-444-44-43",
+      "salary":"40 т.р."
+    },
+    {
+      "company_id":"3",
+      "id":"7",
+      "FIO":"Скляренко Святослав Григорьевич",
+      "employee_position":"Директор",
+      "dat_of_birth":"15.05.1956",
+      "phone_number":"8-999-333-34-65",
+      "salary":"70 т.р."
+    }
+  ]
+}

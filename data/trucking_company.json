@@ -1,0 +1,28 @@
+{
+  "organization":[
+    {
+      "id":"1",
+      "name":"ОАО №1",
+      "date_of_establishment":"19.10.2004",
+      "location":"ул. Орджоникидзе 11",
+      "contact_Information":"23-24-65",
+      "description":"..."
+    },
+    {
+      "id":"2",
+      "name":"Грузоперевозки Ярослава",
+      "date_of_establishment":"15.12.2019",
+      "location":"ул. Булорусская 6",
+      "contact_Information":"12-12-12",
+      "description":"..."
+    },
+    {
+      "id":"3",
+      "name":"Гордость России",
+      "date_of_establishment":"12.02.1987",
+      "location":"Россия, Ленинградская улица 6 ",
+      "contact_Information":"12-12-12",
+      "description":"Скорость. Надежность. Качество."
+    }
+  ]
+}
