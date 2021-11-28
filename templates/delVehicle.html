@@ -1,0 +1,21 @@
+{% extends "main.html" %}
+{% block title %}Удаление транспортного средства{% endblock %}
+{% block content %}
+    <div>
+   <p><a href="{% url 'adminpanel' %}" class="link">Назад</a></p>
+    </div>
+    <div>
+    <form action="" method="post">
+        <input type="text" name="id" placeholder="id транспортного средства"></br>
+        <input type="submit" value="Удалить">
+    </form>
+    </div>
+    <div>
+       <table >
+       <tr><td><h3>id Компаниии</h3></td><td><h3>id</h3></td><td><h3>Марка</h3></td><td><h3>Модель</h3></td><td><h3>Дата приобретения</h3></td><td><h3>Состояние автомобиля</h3></td><td><h3>Владелец автомобиля</h3></td><td><h3>Дата рождения владельца автомобиля</h3></td><td><h3>Дата получения прав</h3></td></tr>
+        {% for i in vehicle %}
+        <tr><td>{{i.company_id}}</td><td>{{i.id}}</td><td>{{i.name_vehicle}}</td><td>{{i.type_model}}</td><td>{{i.date_of_purchase}}</td><td>{{i.technical_condition}}</td><td>{{i.name_of_vehicle_owner}}</td><td>{{i.data_of_birth_vehicle_owner}}</td><td>{{i.driving_license_date}}</td></tr>
+        {% endfor %}
+    </table>
+    </div>
+{% endblock %}

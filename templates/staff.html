@@ -1,0 +1,10 @@
+{% extends "main.html" %}
+{% block title %}Список сотрудников{% endblock %}
+{% block content %}
+<table>
+        <tr><td>Id</td><td>ФИО</td></tr>
+        {% for i in employee %}
+        <tr><td><form action="employee/{{i.id}}"><button>{{i.id}}</button></form></td><td>{{i.FIO}}</td></tr>
+        {% endfor %}
+    </table>
+{% endblock %}

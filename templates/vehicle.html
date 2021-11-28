@@ -1,0 +1,25 @@
+{% extends "main.html" %}
+{% block title %}{{name_vehicle}}{% endblock %}
+{% block content %}
+    <div>
+    <h1>Подробная информация: {{ name_vehicle }} {{ type_model }}</h1>
+    Дата приобретения : {{ date_of_purchase }} </br>
+    Состояние автомобиля : {{ technical_condition }} </br>
+    Владелец автомобиля : {{ name_of_vehicle_owner }} </br>
+    Дата рождения владельца автомобиля : {{ data_of_birth_vehicle_owner }} </br>
+    Дата получения прав : {{ driving_license_date }} </br>
+    <h2>Инфомация о ремонтных работах</h2>
+    <table>
+    <tr><td>ФИО мастера</td><td>Дата ремонта </td><td>Цена ремонта</td><td>Описание</td><td>Номер мастера</td></tr>
+    {%  for i in repair_work %}
+        <tr>
+            <td>{{ i.FIO_mechanic }} </td>
+            <td>{{ i.repair_date }} </td>
+            <td>{{ i.repairing_price }} </td>
+            <td>{{ i.description }} </td>
+            <td>{{ i.phone_number }} </td>
+        </tr>
+    {% endfor %}
+    </table>
+    </div>
+{% endblock %}

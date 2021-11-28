@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+      {% load static %}
+
+       <link rel="stylesheet" href="{% static 'css/style.css' %}" type="text/css">
+    <title>Моя тестовая страница</title>
+  </head>
+  <body>
+  <div>
+      <img src="{% static 'images/maikl.png' %}" alt="UML diagram" style="width:1800px;height:850px;">
+      <p><a href="{% url 'login' %}" class="link">HELLO</a></p>
+  </div>
+    </body>
+</html>

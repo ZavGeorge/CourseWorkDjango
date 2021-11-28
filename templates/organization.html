@@ -1,0 +1,13 @@
+{% extends "main.html" %}
+{% block title %}{{name}}{% endblock %}
+{% block content %}
+    <div>
+    <h2>Название: {{ name }}</h2>
+    Местоположение: {{ location }} </br>
+        Дата основания: {{ date_of_establishment }} </br>
+    Контактная информация: {{ contact_Information }} </br>
+    Описание: {{ description }} </br>
+    <br><form action="staff/{{ id }}"><button>Сотрудники</button></form></br>
+    <form action="vehicles/{{ id }}"><button>Транспортные средства</button></form></br>
+</div>
+{% endblock %}

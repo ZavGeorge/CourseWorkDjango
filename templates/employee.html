@@ -1,0 +1,11 @@
+{% extends "main.html" %}
+{% block title %}{{FIO}}{% endblock %}
+{% block content %}
+    <div>
+    <h3>Подробная инфомация: {{ FIO }}</h3>
+    Должность : {{ employee_position }} </br>
+    Дата рождения : {{ dat_of_birth }} </br>
+    Номер телефона : {{ phone_number }} </br>
+    Зарплата : {{ salary }} </br>
+    </div>
+{% endblock %}

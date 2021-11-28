@@ -1,0 +1,12 @@
+{% extends "main.html" %}
+{% block title %}Организации{% endblock %}
+{% block content %}
+    <div>
+       <table >
+        <tr><td><h3>Id</h3></td><td><h3>Название</h3></td></tr>
+        {% for i in organization %}
+        <tr><td><form action="organization/{{i.id}}"><button>{{i.id}}</button></form></td><td>{{i.name}}</td></tr>
+        {% endfor %}
+    </table>
+    </div>
+{% endblock %}

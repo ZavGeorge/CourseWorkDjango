@@ -1,0 +1,101 @@
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+body {
+    margin: 0px;
+    background-color: rgba(254, 252, 16, 0.22);
+
+
+}
+div {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #0d0c97;
+    text-align: center;
+    position: center;
+    margin: auto;
+    font-size: 20px;
+
+
+
+
+}
+footer {
+    position: absolute;
+
+}
+a {
+    font-family: 'Josefin Sans', sans-serif;
+     text-decoration: none;
+    height: 60px;
+    width: 90%;
+    border-radius: 15px;
+    background: rgba(255, 241, 5, 0.59);
+    margin-bottom: 15px;
+    display: inline-block;
+    border: 1px solid; /* Рамка */
+    border-color: #381cf9;
+    padding: 5px 15px; /* Поля */
+    color: #202020;
+    text-align: center;
+    font-size: 30px;
+    vertical-align: middle;
+
+
+
+}
+a:hover{
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    background: linear-gradient(to bottom, rgb(253, 239, 249), #180fe9, #fc0016);
+    color: #3110aa;
+
+}
+input {
+    margin-bottom: 15px;
+    height: 40px;
+    width: 90%;
+    border-radius: 15px;
+    background: rgba(255, 241, 5, 0.59);
+    color: #202020;
+    text-align: center;
+    border-color: #381cf9;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    vertical-align: middle;
+
+
+}
+table {
+    background: white; /* Цвет фона таблицы */
+    color: white; /* Цвет текста */
+    border-color: rgba(18, 9, 151, 0.92);
+    margin: auto;
+    font-size: 20px;
+   }
+td, th {
+    background: rgba(63, 26, 255, 0.41); /* Цвет фона ячеек */
+    padding: 5px; /* Поля вокруг текста */
+    color: #202020;
+    font-size: 20px;
+   }
+button {
+     display: inline-block;
+  font-family: arial,sans-serif;
+  font-size: 20px;
+  color: #202020;
+  text-decoration: none;
+  user-select: none;
+  line-height: 2em;
+  padding: 1px 1.2em;
+  outline: none;
+  border: 1px solid #381cf9;
+  border-radius: 30px;
+    background-color: rgba(255, 241, 5, 0.59);
+
+
+}
+button:hover {
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    background: linear-gradient(to bottom, rgb(253, 239, 249), #180fe9, #fc0016);
+    color: #3110aa;
+
+}

@@ -1,0 +1,27 @@
+{% extends "main.html" %}
+{% block title %}Добавление сотрудника{% endblock %}
+{% block content %}
+    <div>
+   <p><a href="{% url 'adminpanel' %}" class="link">Назад</a></p>
+    </div>
+    <div>
+    <form action="" method="post">
+        <input type="text" name="company_id" placeholder="id компании"></br>
+        <input type="text" name="id" placeholder="id"></br>
+        <input type="text" name="FIO" placeholder="ФИО сотрудника"></br>
+        <input type="text" name="employee_position" placeholder="Должность сотрудника"></br>
+        <input type="text" name="dat_of_birth" placeholder="Дата рождения"></br>
+        <input type="text" name="phone_number" placeholder="Номер телефона"></br>
+        <input type="text" name="salary" placeholder="Зарплата"></br>
+        <input type="submit" value="Добавить">
+    </form>
+    </div>
+    <div>
+       <table >
+       <tr><td><h3>id Компаниии</h3></td><td><h3>id</h3></td><td><h3>ФИО</h3></td><td><h3>Должность</h3></td><td><h3>Номер телефона</h3></td><td><h3>Зарплата</h3></td></tr>
+        {% for i in employee %}
+        <tr><td>{{i.company_id}}</td><td>{{i.id}}</td><td>{{i.FIO}}</td><td>{{i.employee_position}}</td><td>{{i.phone_number}}</td><td>{{i.salary}}</td></tr>
+        {% endfor %}
+    </table>
+    </div>
+{% endblock %}

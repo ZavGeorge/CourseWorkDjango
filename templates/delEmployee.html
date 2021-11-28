@@ -1,0 +1,21 @@
+{% extends "main.html" %}
+{% block title %}Удаление сотрудника{% endblock %}
+{% block content %}
+    <div>
+   <p><a href="{% url 'adminpanel' %}" class="link">Назад</a></p>
+    </div>
+    <div>
+    <form action="" method="post">
+        <input type="text" name="id" placeholder="id сотрудника"></br>
+        <input type="submit" value="Удалить">
+    </form>
+    </div>
+    <div>
+       <table >
+       <tr><td><h3>id Компаниии</h3></td><td><h3>id</h3></td><td><h3>ФИО</h3></td><td><h3>Должность</h3></td><td><h3>Номер телефона</h3></td><td><h3>Зарплата</h3></td></tr>
+        {% for i in employee %}
+        <tr><td>{{i.company_id}}</td><td>{{i.id}}</td><td>{{i.FIO}}</td><td>{{i.employee_position}}</td><td>{{i.phone_number}}</td><td>{{i.salary}}</td></tr>
+        {% endfor %}
+    </table>
+    </div>
+{% endblock %}

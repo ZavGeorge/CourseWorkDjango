@@ -1,0 +1,33 @@
+{% extends "main.html" %}
+{% block title %}Администратор{% endblock %}
+{% block content %}
+    <div>
+    <a href="{% url 'addTruckingCompany' %}">
+            <p>Добавить автотранспортную компанию</p>
+    </a>
+     <a href="{% url 'addVehicle' %}">
+            <p>Добавить транспортное средство</p>
+    </a>
+    <a href="{% url 'addEmployee' %}">
+            <p>Добавить сотрудника</p>
+    </a>
+    <a href="{% url 'addRepairWork' %}">
+            <p>Добавить информацию о ремонтных работах</p>
+    </a>
+    <a href="{% url 'delTruckingCompany' %}">
+            <p>Удалить автотранспортную компанию</p>
+    </a>
+    <a href="{% url 'delEmployee' %}">
+            <p>Удалить сотрудника</p>
+    </a>
+    <a href="{% url 'delVehicle' %}">
+            <p>Удалить транспортное средство</p>
+    </a>
+    <a href="{% url 'addModerator' %}">
+            <p>Добавить модератора</p>
+    </a>
+    <a href="{% url 'delModerator' %}">
+            <p>Удалить модератора</p>
+    </a>
+    </div>
+{% endblock %}

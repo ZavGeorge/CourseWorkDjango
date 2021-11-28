@@ -1,0 +1,12 @@
+{% extends "main.html" %}
+{% block title %}Список автомобилей{% endblock %}
+{% block content %}
+    <div>
+<table>
+        <tr><td>Id</td><td>Марка</td></tr>
+        {% for i in vehicle %}
+        <tr><td><form action="vehicle/{{i.id}}"><button>{{i.id}}</button></form></td><td>{{i.name_vehicle}}</td></tr>
+        {% endfor %}
+</table>
+    </div>
+{% endblock %}
